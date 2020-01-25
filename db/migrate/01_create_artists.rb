@@ -20,3 +20,4 @@ sql = <<-SQL
   hometown TEXT
   )
 SQL
+ActiveRecord::Base.connection.execute(sql)
